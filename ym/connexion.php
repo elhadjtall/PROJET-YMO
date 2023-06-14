@@ -32,14 +32,9 @@
     </form>
     </div>
     <div class="bloc2">
-        <p><h2 class="compte">Je veux créer un compte</h2></p>
+        <p><h2 class="compte"><a href="../ymoney/acceuil.html">Je veux créér un compte</a></h2></p>
     </div>
     </div>
 </body>
 </html>
-<?php
-if (isset($_POST['submit']) AND isset($_POST['email'])){
-    echo "il existe";
-}
-
 
