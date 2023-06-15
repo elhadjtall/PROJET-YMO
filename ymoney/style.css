@@ -78,7 +78,7 @@ section h1 {
     color: rgb(19, 3, 110);
 }
 .bloc1 p{
-     
+     margin: 20px;
 }
 .bloc2 p{
      
@@ -189,6 +189,7 @@ img {
     flex-direction: row;
     padding: 0;
     margin: 0;
+    color: white;
 }
 footer {
     font-size: 20px;
@@ -197,9 +198,16 @@ footer {
     list-style: none;
     margin: 5px;
 }
+.legal ul li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+.legal ul
 .footers h3{
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 .reseaux{
     margin: 30px;
@@ -212,7 +220,18 @@ footer {
 }
 .adresse{
     margin: 30px;
+    font-size: 15px;
 }
 .ent{
     margin: 30px;
+}
+.pied1 {
+    display: flex;
+}
+.pied1 ul li{
+    display: inline-block;
+}
+.pied1 ul li a {
+    justify-content: center;
+    text-align: center;
 }
