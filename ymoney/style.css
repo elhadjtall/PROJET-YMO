@@ -210,7 +210,6 @@ footer {
     color: white;
     font-size: 15px;
 }
-.legal ul
 .footers h3{
     font-size: 15px;
 }
@@ -237,12 +236,23 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .pied1 ul li{
     display: inline-block;
 }
-.pied1 p{
-    text-align: center;
+.pied1 ul li a {
+    color: #a79205;
+}
+.pied1 ul li a:hover{
+    cursor: pointer;
+}
+.pied {
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+    margin: 10%;
+    color: white;
 }
