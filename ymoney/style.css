@@ -113,8 +113,6 @@ img {
 }
 .tableau{
     display: flex;
-    padding: 10px;
-    width: 100%;
     
 }
 
@@ -125,7 +123,6 @@ img {
 .clients{
     display: flex;
     padding: 20px;
-    margin: 5px;
     flex-direction: row;
 
 }
@@ -244,9 +241,6 @@ footer {
 .pied1 ul li a {
     color: #a79205;
 }
-.pied1 ul li a:hover{
-    cursor: pointer;
-}
 .pied {
     justify-content: center;
     align-items: center;
@@ -255,4 +249,40 @@ footer {
     font-size: 15px;
     margin: 10%;
     color: white;
+}
+.point{
+    border: 1px;
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+}
+.point1{
+    border: 1px;
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+}
+.point2{
+    border: 1px;
+    margin: 20px;
+    width: 400px;
+    padding: 20px;
+}
+.point2 p{
+    font-size: 15px;
+}
+.tableau h2 {
+    font-size: 3.0rem;
+    color: #1231ca;
+}
+.point2 h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.imagespays1{
+    padding: 6px;
+}
+.imagespays2{
+    padding: 6px;
 }
