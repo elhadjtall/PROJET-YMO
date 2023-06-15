@@ -182,6 +182,11 @@ img {
     display: flex;
     flex-direction: row;
     color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
 }
 .footers {
     display: flex;
@@ -212,6 +217,9 @@ footer {
 .reseaux{
     margin: 30px;
 }
+.reseaux i{
+    size: 10px;
+}
 .pays {
     margin: 30px;
 }
@@ -227,11 +235,14 @@ footer {
 }
 .pied1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pied1 ul li{
     display: inline-block;
 }
-.pied1 ul li a {
-    justify-content: center;
+.pied1 p{
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
