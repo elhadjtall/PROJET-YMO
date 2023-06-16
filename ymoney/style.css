@@ -386,3 +386,7 @@ footer {
 .ouvrez{
     display: flex;
 }
+.phone img{
+    height: 600Px;
+    width: 450px;
+}
