@@ -311,7 +311,7 @@ footer {
     margin:30px;
 }
 .simple {
-    width: 200px;
+    width: 300px;
     height: 90px;
     background-color: white;
     border-radius: 10px;
@@ -353,6 +353,36 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    margin: 20px;
+    margin: 10px;
 
+}
+.container3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cash{
+    width: 550px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.support{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(2, 2, 30);
+    border-radius:10px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+.ouvrez{
+    display: flex;
 }
