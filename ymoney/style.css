@@ -286,6 +286,27 @@ footer {
 .imagespays2{
     padding: 6px;
 }
-.rejoignez1 {
+.appstore{
     display: flex;
+    margin: 10px;
+}
+.appstore .code{
+    flex-direction: column;
+}
+.rejoignez{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.code {
+    width: 130px;
+    height: 130px;
+    background-color: #ebcd08;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotate(45deg);
+}
+.code {
+    margin:30px;
 }
