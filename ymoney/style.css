@@ -390,3 +390,6 @@ footer {
     height: 600Px;
     width: 450px;
 }
+.reguler {
+    display: flex;
+}
