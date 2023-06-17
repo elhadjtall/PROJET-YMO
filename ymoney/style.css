@@ -392,6 +392,9 @@ footer {
 }
 .reguler {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .partenaire{
     width: 100%;
