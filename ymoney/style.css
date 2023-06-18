@@ -5,9 +5,10 @@ body {
     font-size: 20px;
     line-height: 32px;
     background-color: #2450ef;
+    position: absolute;
 }
 nav ul{
-    padding: 15px;
+    padding: 5px;
     margin: 0;
     list-style: none;
     position: relative;
@@ -19,7 +20,7 @@ nav ul li {
 }
 nav a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     color: rgb(33, 29, 23);
     line-height: 50px;
     font-size: 20px;
@@ -38,7 +39,7 @@ nav ul li:hover > ul{
     font-size: 20px;
 }
 nav ul li ul li {
-    width: 140px;
+    width: 100px;
     float: none;
     display: list-item;
     position: relative;
@@ -54,14 +55,14 @@ li > a:only-child::after{
     height: 300px;
     background-color: #030377;
     color: white;
-    padding: 15px;
+    padding: 20px;
 }
 .bloc2 {
     width: 580px;
     height: 300px;
     background-color: beige;
     color: black;
-    padding: 15px;
+    padding: 20px;
 }
 section div {
     display: inline-block;
@@ -77,10 +78,10 @@ section h1 {
     color: rgb(19, 3, 110);
 }
 .bloc1 p{
-     margin: 20px;
+     margin: 30px;
 }
 .bloc2 p{
-     
+     margin: 30px;
 } 
 
 .bloc{
@@ -89,7 +90,7 @@ section h1 {
 section {
     background-color: white;
     padding: 10px;
-    width: 100%;
+    width: 110%;
 }
 button {
     width: 200px;
@@ -415,5 +416,8 @@ footer {
     color: #1231ca;
 }
 .rejoignez1{
+    padding: 20px;
+}
+.ouvrez2{
     padding: 20px;
 }
