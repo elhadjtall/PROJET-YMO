@@ -334,9 +334,9 @@ footer {
     color: white;
     margin: 10px;
 }
-.point{
+.partout{
     width: 400px;
-    height: 50px;
+    height: 90px;
     background-color: white;
     border-radius: 10px;
     flex-direction: row;
@@ -384,6 +384,7 @@ footer {
 }
 .ouvrez{
     display: flex;
+
 }
 .phone img{
     height: 600Px;
@@ -394,6 +395,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 10px;
 }
 .partenaire{
     width: 100%;
@@ -401,4 +403,17 @@ footer {
     align-items: center;
     text-align: center;
     padding: 75px;
+    background: white;
+}
+.acpr{
+    margin: 20px;
+    height: 30px;
+    width: 60px;
+}
+.partenaire h1 {
+    font-size: 3.0rem;
+    color: #1231ca;
+}
+.rejoignez1{
+    padding: 20px;
 }
